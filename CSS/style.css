@@ -36,6 +36,7 @@ img {
     margin: 2em 0 0;
     width: 180px;
     height: 180px;
+    opacity: .65;
 }
 
   /* Navbar*/ 
@@ -92,17 +93,6 @@ img {
     size: 0.7rem;
     padding-left: 10px;
     font-weight: bold;
-}
-
-.dropdown-item a::before {
-    content: ' ';
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
 }
 
 
