@@ -17,7 +17,7 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-
+  /*here is that snazzy header*/
 header {
   padding: 1em;
   clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
@@ -52,6 +52,30 @@ img {
   align-items: center;
   justify-content: space-evenly;
   height: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  width: 500px;
+  opacity: 0;
+  z-index: 2;
+  background: var(--bg-dropdown);
+  border-top: 2px solid var(--border-color);
+
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 3rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+
+  box-shadow: rgba(2, 8,20,0.1) 0px 0.175em 0.5em;
+  transform: translateX(-40%);
+
+  transition: opacity .15s ease-out;
 }
 
 
