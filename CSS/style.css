@@ -38,7 +38,7 @@ img {
     height: 180px;
 }
 
-/* Navbar */
+  // Navbar 
 
 .navbar {
     height: 70px;
@@ -106,7 +106,7 @@ img {
 }
 
 
-/* Themes */
+  // Themes 
 
 
 :root {
@@ -165,7 +165,7 @@ img {
 }
 
 
-/* Logo Animation */
+  // Logo Animation 
 
 
 @keyframes color-rotate {
@@ -183,4 +183,3 @@ img {
     animation-iteration-count: infinite; 
     animation-direction: alternate;
 }
-
