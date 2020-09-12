@@ -27,4 +27,17 @@ header {
   text-align: center;
 }
 
+main {
+  min-height: 1000px;
+  padding: 2 rem;
+}
+
+img {
+  margin: 2 em 0 0;
+  width: 180px;
+
+}
+
+
+
 
