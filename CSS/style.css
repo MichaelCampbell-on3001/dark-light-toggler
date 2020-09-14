@@ -32,14 +32,6 @@ main {
     padding: 2rem;
 }
 
-.logo {
-    margin: 2em 0 0;
-    width: 180px;
-    height: 180px;
-    opacity: .65;
-    
-}
-
   /* Navbar*/ 
 
 .navbar {
@@ -190,13 +182,15 @@ main {
 
 .logo {
   margin: 2em 0 0;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   opacity: .65;
   border-radius: 15%;
-  
+  border: groove 30px;
   
 }
+
+
 
 
 
