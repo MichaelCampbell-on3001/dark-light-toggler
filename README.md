@@ -1,2 +1,2 @@
 # dark-light-toggler
-A light/dark toggler with a sloar option
+A light/dark toggler with a solar option
